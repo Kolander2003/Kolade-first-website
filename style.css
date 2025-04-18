@@ -1,0 +1,129 @@
+
+/* Browser Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(249, 250, 251, 0.021);
+color: rgb(51, 8, 63);
+
+}
+/*
+Use CTRL+ / to insert a comment on anything in VS Code
+Use a comma to style mutile selectors
+Measuements :
+rem/em
+in inches
+cm cenimeters
+Px pixels
+pt font types
+*/
+
+header, footer{
+    background-color: rgb(99, 15, 99);
+    color: rgba(239, 243, 246, 0.977);    
+    padding: 1rem;
+    text-align: center;
+    text-shadow: rgb(248, 245, 245) .5px .5px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+/* the dot means that this is a code defined class. We use it in the html with class = "whatever the name" is */
+
+.emphasis{
+    color: rgb(113, 7, 85);
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+p, ul{
+    margin:.5em;
+}
+/* padding or margin: don't get into TRBL or HV */
+
+li{
+margin: .1em .5em
+}
+
+main{
+    padding: 1rem;
+    max-width: 50em;
+    margin: auto auto 5rem auto
+}
+
+/* Use a space when you need to select based upto the container  */
+nav ul{
+list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: .5em;
+}
+
+nav a{
+    text-decoration: none;
+}
+/* Nav style
+/* pseudo class is that styles a prtion of a element */
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(34, 34, 181);
+}
+
+/* Table styles*/
+
+table {
+    width: 50%;
+    border-collapse: separate;
+}
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+th {
+    background-color: #158c6e;
+}
+tr:nth-child(even) {
+    background-color: #9ad6cb;
+}
+
+
+/* Form Styles*/
+form{
+    background-color: white;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0px rgb(225, 216, 216);
+    font-size: 1.1rem;
+    max-width: 400px;
+}
+
+label, button{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+
+}
+button{
+background-color: rgb(112, 75, 112);
+padding: 10px;
+border-radius: 5px;
+}
+
+#favouritethingsparent{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
